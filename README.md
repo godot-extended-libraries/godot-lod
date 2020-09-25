@@ -24,7 +24,14 @@ for the demonstration project.
 
 ### Using the Asset Library
 
-TODO (not uploaded yet).
+- Open the Godot editor.
+- Navigate to the **AssetLib** tab at the top of the editor and search for
+  "lod".
+- Install the
+  [*Level of Detail (LOD)*](https://godotengine.org/asset-library/asset/729)
+  plugin. Keep all files checked during installation.
+- In the editor, open **Project > Project Settings**, go to **Plugins**
+  and enable the **Level of Detail (LOD)** plugin.
 
 ### Manual installation
 
@@ -43,7 +50,7 @@ if you do not have Git installed.
 
 - Move the `addons/` folder to your project folder.
 - In the editor, open **Project > Project Settings**, go to **Plugins**
-   and enable the **Level of Detail (LOD)** plugin.
+  and enable the **Level of Detail (LOD)** plugin.
 
 ## Usage
 
