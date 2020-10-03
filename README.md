@@ -4,7 +4,7 @@ This add-on provides level of detail for meshes, lights and particles.
 It can be used to improve performance in large scenes significantly.
 
 This repository only contains the add-on. See
-[Calinou/godot-lod-demo](https://github.com/Calinou/godot-lod-demo)
+[godot-extended-libraries/godot-lod-demo](https://github.com/godot-extended-libraries/godot-lod-demo)
 for the demonstration project.
 
 ## Features
@@ -41,11 +41,11 @@ following its `master` branch.
 - Clone this Git repository:
 
 ```bash
-git clone https://github.com/Calinou/godot-lod.git
+git clone https://github.com/godot-extended-libraries/godot-lod.git
 ```
 
 Alternatively, you can
-[download a ZIP archive](https://github.com/Calinou/godot-lod/archive/master.zip)
+[download a ZIP archive](https://github.com/godot-extended-libraries/godot-lod/archive/master.zip)
 if you do not have Git installed.
 
 - Move the `addons/` folder to your project folder.

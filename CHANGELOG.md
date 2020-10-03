@@ -11,4 +11,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial versioned release.
 
-[Unreleased]: https://github.com/Calinou/godot-lod/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/godot-extended-libraries/godot-lod/compare/v1.0.0...HEAD
