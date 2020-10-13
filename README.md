@@ -127,7 +127,7 @@ will improve visual quality at the cost of performance.
 
 ### `lod/refresh_threshold_ms`
 
-*Default:* `10`
+*Default:* `5`
 
 How much time can be used to update LOD meshes, lights and particle instances (in milliseconds). Higher
 values allow more LODs to be processed at once but uses more CPU.
