@@ -22,6 +22,9 @@ func _ready() -> void:
 
 
 func _process(_delta: float) -> void:
+	if lod_objects.empty():
+		return
+
 	if current_idx >= lod_objects.size():
 		current_idx = 0
 
