@@ -13,7 +13,7 @@ var lods_processed := 0
 
 # How much time can be used to process lods in milliseconds.
 # If not all the lods can be processed within this time, they'll be processed in the next frame.
-var refresh_threshold_ms := 10
+var refresh_threshold_ms := 5
 
 
 func _ready() -> void:
