@@ -36,9 +36,9 @@ func set_enable_lod(value: bool) -> void:
 	enable_lod = value
 	if is_inside_tree() and Engine.editor_hint:
 		if enable_lod:
-			LODManager.register_lod_object(self)
+			Engine.get_singleton("LODManager").register_lod_object(self)
 		else:
-			LODManager.unregister_lod_object(self)
+			Engine.get_singleton("LODManager").unregister_lod_object(self)
 
 
 func update_lod() -> void:
@@ -86,11 +86,11 @@ func _ready() -> void:
 	if ProjectSettings.has_setting("lod/light_bias"):
 		lod_bias = ProjectSettings.get_setting("lod/light_bias")
 
-	LODManager.register_lod_object(self)
+	Engine.get_singleton("LODManager").register_lod_object(self)
 	update_lod()
 
 
 func _exit_tree() -> void:
 	if Engine.editor_hint:
 		return
-	LODManager.unregister_lod_object(self)
+	Engine.get_singleton("LODManager").unregister_lod_object(self)
