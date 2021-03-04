@@ -20,6 +20,10 @@ for the demonstration project.
   to hundreds of LOD instances (and perhaps thousands on more powerful
   hardware).
 
+The LOD add-on only runs in the running project, not while in the editor.
+This is done by design to avoid accidentally saving modified versions of the scene.
+You need to run the project to test LOD functionality.
+
 ## Installation
 
 ### Using the Asset Library
