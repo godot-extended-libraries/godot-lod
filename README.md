@@ -1,4 +1,6 @@
-# Level of Detail (LOD) add-on
+# Level of Detail (LOD) add-on for Godot 3.x
+
+![Screenshot](https://raw.githubusercontent.com/Calinou/media/master/godot-lod-demo/screenshot.png)
 
 This add-on provides level of detail for meshes, lights and particles.
 It can be used to improve performance in large scenes significantly.
