@@ -131,31 +131,12 @@ The distance bias (in 3D units) to use for LOD calculations. Positive values
 will improve performance at the cost of visual quality, whereas negative values
 will improve visual quality at the cost of performance.
 
-### `lod/refresh_rate`
+### `lod/refresh_threshold_ms`
 
-*Default:* `0.25`
+*Default:* `5`
 
-The rate at which the LOD mesh and particle instances update (in seconds). Lower
-values are more reactive but use more CPU. Each LOD instance uses a random
-jitter to avoid applying updates on all instances at the same time.
-
-Since meshes and particles are updated in a "discrete" manner rather than a
-continuus one, the default refresh rate is quite low. The difference is hardly
-visible, yet it helps decrease CPU usage significantly in scenes with hundreds
-of instances (or more).
-
-### `lod/light_refresh_rate`
-
-*Default:* `0.05`
-
-The rate at which the LOD light instances update (in seconds). Lower values are
-more reactive but use more CPU. Each LOD instance uses a random jitter to avoid
-applying updates on all instances at the same time.
-
-Since lights are updated in a "continuous" manner rather than a discrete one,
-the default refresh rate is relatively high. Despite not quite being 60 FPS
-(`0.01666`), it often looks very close in practice unless the camera is moving
-really fast.
+How much time can be used to update LOD meshes, lights and particle instances (in milliseconds). Higher
+values allow more LODs to be processed at once but uses more CPU.
 
 ## Tips and tricks
 
